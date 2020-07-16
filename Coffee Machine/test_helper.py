@@ -7,6 +7,7 @@ def get_file_text(path):
     text = file_io.read()
     file_io.close()
     return text
+    
 
 
 def get_file_output(encoding="utf-8", path=sys.argv[-1], arg_string=""):
